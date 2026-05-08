@@ -1,0 +1,7 @@
+{
+  "SVM": 90.98,
+  "Random Forest": 89.76,
+  "Gradient Boosting": 86.59,
+  "X-Vector": 94.15,
+  "ECAPA-TDNN": 92.44
+}

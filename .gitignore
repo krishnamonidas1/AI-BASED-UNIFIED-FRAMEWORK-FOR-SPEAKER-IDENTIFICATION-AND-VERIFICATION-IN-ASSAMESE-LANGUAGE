@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset (too large for GitHub)
+Dataset/
+
+# Cached features
+Features/
+
+# Temp audio
+temp.wav
+*.tmp
+
+# IDE
+.vscode/
+.idea/
