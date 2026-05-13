@@ -61,7 +61,9 @@ streamlit run App.py
 python utils_confusion.py
 # Saves PNGs to results/
 ```
-
+### Generates excel file of Train & Test
+ python export_splits.py
+ 
 ## What the App Does
 - **Select Model Type**: Machine Learning or Deep Learning
 - **Audio Input**: Upload WAV or record directly in browser
