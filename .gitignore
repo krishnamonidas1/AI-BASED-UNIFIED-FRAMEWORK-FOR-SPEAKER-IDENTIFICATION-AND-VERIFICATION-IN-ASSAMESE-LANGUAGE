@@ -20,3 +20,5 @@ temp.wav
 # IDE
 .vscode/
 .idea/
+#Train&Test Data
+~$*.xlsx
