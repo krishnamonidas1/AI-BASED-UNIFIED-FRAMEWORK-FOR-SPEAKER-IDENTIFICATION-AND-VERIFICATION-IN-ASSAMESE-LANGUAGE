@@ -194,7 +194,7 @@ def _load_saved_accuracies():
 
 
 with st.sidebar:
-    st.markdown("### 🎙 Model Status")
+    st.markdown("###  Model Status")
 
     def ok(cond, label):
         icon = "" if cond else ""
@@ -469,7 +469,7 @@ else:
             pred_idx = list(classes).index(spk)
             st.markdown(
                 f'<div class="result-identify">'
-                f'🔑 Identified Speaker: <span class="speaker-name">{spk}</span>'
+                f'Identified Speaker: <span class="speaker-name">{spk}</span>'
                 f'<span class="score-pill">{conf:.1f}%</span>'
                 f'</div>', unsafe_allow_html=True)
             show_prob_bar(probas, classes, pred_idx)
@@ -510,7 +510,7 @@ else:
                                              tmp_path, claimed_dl, dl_thresh)
                     box_cls = "result-accept" if verdict["decision"]=="ACCEPT" \
                                else "result-reject"
-                    icon = "✅" if verdict["decision"] == "ACCEPT" else "❌"
+                    icon = "" if verdict["decision"] == "ACCEPT" else ""
                     st.markdown(
                         f'<div class="{box_cls}">'
                         f'{icon} <b>{verdict["decision"]}</b> — {claimed_dl}'

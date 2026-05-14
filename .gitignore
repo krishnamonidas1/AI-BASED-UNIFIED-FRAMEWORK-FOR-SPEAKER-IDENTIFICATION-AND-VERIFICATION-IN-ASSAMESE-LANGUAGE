@@ -7,7 +7,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Dataset (too large for GitHub)
+# Dataset 
 Dataset/
 
 # Cached features
