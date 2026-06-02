@@ -67,7 +67,7 @@ python utils_confusion.py
 ## What the App Does
 - **Select Model Type**: Machine Learning or Deep Learning
 - **Audio Input**: Upload WAV or record directly in browser
-- **Identification**: Predict which of 14 speakers the audio belongs to
+- **Identification**: Predict which of 20 speakers the audio belongs to
 - **Verification**: Claim a speaker → get ACCEPT/REJECT decision
   - ML: uses predicted probability vs threshold
   - DL: uses cosine similarity of embeddings vs threshold
