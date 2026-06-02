@@ -22,3 +22,4 @@ temp.wav
 .idea/
 #Train&Test Data
 ~$*.xlsx
+results/
