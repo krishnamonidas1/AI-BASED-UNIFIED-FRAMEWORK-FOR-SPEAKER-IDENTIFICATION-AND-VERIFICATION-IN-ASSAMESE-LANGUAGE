@@ -71,4 +71,5 @@ python utils_confusion.py
 - **Verification**: Claim a speaker → get ACCEPT/REJECT decision
   - ML: uses predicted probability vs threshold
   - DL: uses cosine similarity of embeddings vs threshold
-The Dataset is uploaded in kaggle(ping me to grt it)
+### Dataset
+The Dataset is uploaded in kaggle(ping me to get it)
